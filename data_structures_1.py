@@ -76,3 +76,10 @@ for number in participant_3_RTs:
 
 print(participant_3_log_RTs)
 
+#HW-2.2
+participants_log_RTs=[]
+for participant in participants:
+    participants_log_RTs.append([])
+    for number in participant:
+        participants_log_RTs[participants.index(participant)].append(log(number))
+print(participants_log_RTs)

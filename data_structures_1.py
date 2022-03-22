@@ -83,3 +83,7 @@ for participant in participants:
     for number in participant:
         participants_log_RTs[participants.index(participant)].append(log(number))
 print(participants_log_RTs)
+
+#HW-2.3
+participants_array_log_RTs = np.log(participants_array)
+print(participants_array_log_RTs)
